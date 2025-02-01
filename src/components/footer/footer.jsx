@@ -14,8 +14,9 @@ const Footer = () => {
       }}
     >
       <Typography
+      display={"flex"}
         justifyContent={"center"}
-        display={"flex"}
+        
         alignItems={"center"}
         color={"HighlightText"}
         variant="h6"
