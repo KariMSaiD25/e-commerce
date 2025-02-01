@@ -7,6 +7,7 @@ import Header2 from "./components/header/Header2";
 import Header3 from "./components/header/Header3";
 import Hero from "./components/hero/Hero";
 import Main from "./components/main/Main";
+import Footer from "./components/footer/footer";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -20,6 +21,7 @@ function App() {
         <Header3 />
         <Box bgcolor={theme.palette.bg.main}><Hero />
         <Main/>
+          <Footer/>
 </Box>      </ThemeProvider>
     </ColorModeContext.Provider>
   );
